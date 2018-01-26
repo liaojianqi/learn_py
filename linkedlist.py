@@ -1,5 +1,6 @@
 # python实现链表
 # python和java一样，只有值传递，每一个对象变量实质上是一个对象的指针
+
 class Node():
     def __init__(self, v, next=None):
         self.v = v
